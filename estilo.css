@@ -16,9 +16,7 @@ body{
 }
 header{
   background-color: darkred;
-  
   grid-column: 1 / -1;
-  
 }
 nav{
   background-color: orange;
@@ -26,7 +24,7 @@ nav{
 section{
   background-color: maroon;
 
-  grid-column: 2 / -1;
+  grid-column: 2 / -2;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
@@ -53,6 +51,14 @@ section > h2 {
 header, footer, h2, h3 {
   text-align: center;
 }
+
+
+
+aside{
+  background-color: orange;
+}
+
+
 
 @media only screen and (max-width: 800px) {
     body {
